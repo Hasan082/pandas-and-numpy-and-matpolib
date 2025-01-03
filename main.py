@@ -7,10 +7,11 @@ data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'],
 df = pd.DataFrame(data)
 
 
-# Accesing full data farem
+# Accessing full data Frame
 print(df)
 print("=============")
 
+# Accessing One Element
 print(df["Name"])
 print("=============")
 
