@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'],
         'Age': [25, 30, 35, 28],
