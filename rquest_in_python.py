@@ -13,3 +13,5 @@ print(response.status_code)
 header = response.headers
 print(header['date'])
 print(header['content-type'])
+print(response.encoding)
+print(response.text[0:100])
